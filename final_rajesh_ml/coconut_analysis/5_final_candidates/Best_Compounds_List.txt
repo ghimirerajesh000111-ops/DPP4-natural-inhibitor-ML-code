@@ -1,0 +1,26 @@
+1. CNP0422381.0
+CC(C)CSC[C@H]1O[C@@H](n2cnc3c(N)ncnc32)[C@H](O)[C@H]1O	
+ML Probability = 0.606030919
+Docking Score=	"-6.65	"
+NP score = 0.65
+low gi
+1 violation verber and ghose
+toxicity class = 5
+was taken from marine natural products
+
+2.
+CNP0209059.1
+CC(=O)O[C@@H]1[C@@H](O)[C@H](n2cnc3c(N)ncnc32)O[C@@H]1CO
+ML Probability  = 0.599644193
+low gi
+Docking score = "-6.722	"
+NP Score = 1.61
+verber, ghose and egan violation
+
+3. CNP0573851.1
+N#Cc1ccc2cc1Oc1ccc3cccc(c3c1)N1CC[C@@H](NCc3cncn3C2)C1=O
+ML Probability score = 0.679335378
+Docking Score = "-8.515	"
+high gi
+NP score = 0.13
+ghose 1 and leadlikeness 1 violation

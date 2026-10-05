@@ -1,0 +1,36 @@
+COCONUT DPP4 POST-SCREENING ANALYSIS REPORT
+==========================================================================================
+
+Input final candidate file:
+coconut_analysis/5_final_candidates/coconut_final_unique_candidates.csv
+
+FINAL CANDIDATE SELECTION
+------------------------------------------------------------------------------------------
+Morgan Top 50 UNION MACCS Top 50
+Duplicate molecules removed using canonical SMILES.
+No additional probability cutoff was applied.
+No artificial combined ranking was applied.
+
+POST-SCREENING RESULTS
+------------------------------------------------------------------------------------------
+Final candidates                    : 897
+Valid RDKit structures              : 897
+Duplicate SMILES                    : 0
+Morgan + MACCS candidates           : 103
+Morgan-only candidates              : 397
+MACCS-only candidates               : 397
+Unique Murcko scaffolds             : 482
+Lipinski 4/4                        : 824
+PAINS positive                      : 0
+
+ANALYSES PERFORMED
+------------------------------------------------------------------------------------------
+1. Final candidate quality control
+2. Molecular descriptors
+3. Lipinski Rule-of-Five characterization
+4. PAINS analysis
+5. Morgan vs MACCS comparison
+6. Chemical diversity / Tanimoto similarity
+7. Murcko scaffold analysis
+8. Similarity to known DPP4 compounds
+9. Chemical-space PCA

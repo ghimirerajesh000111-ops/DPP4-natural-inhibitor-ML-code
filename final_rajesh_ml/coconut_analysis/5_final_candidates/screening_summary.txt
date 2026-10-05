@@ -1,0 +1,49 @@
+COCONUT DATABASE SCREENING SUMMARY
+================================================================================
+
+1. INPUT DATABASE
+--------------------------------------------------------------------------------
+Input SDF file           : coconut_analysis/3_filtering/coconut_filtered.sdf
+Total SDF records        : 182,740
+Valid molecules screened : 182,740
+Invalid molecules        : 0
+
+2. MOLECULAR FINGERPRINTS
+--------------------------------------------------------------------------------
+Morgan fingerprint        : Radius = 3, nBits = 2048
+MACCS fingerprint         : 166 features
+
+3. MORGAN SCREENING
+--------------------------------------------------------------------------------
+Molecules ranked         : 182,740
+Top candidates selected  : 500
+Ranked results file      : coconut_analysis/4_morgan_screening/coconut_morgan_ranked.csv
+Top 50 file              : coconut_analysis/4_morgan_screening/coconut_morgan_top50.csv
+
+4. MACCS SCREENING
+--------------------------------------------------------------------------------
+Molecules ranked         : 182,740
+Top candidates selected  : 500
+Ranked results file      : coconut_analysis/4_maccs_screening/coconut_maccs_ranked.csv
+Top 50 file              : coconut_analysis/4_maccs_screening/coconut_maccs_top50.csv
+
+5. FINAL CANDIDATE SELECTION
+--------------------------------------------------------------------------------
+Morgan selection         : Top 50
+MACCS selection          : Top 50
+Combination method       : UNION
+Duplicate removal        : Canonical SMILES
+Morgan/MACCS overlap     : 103
+Final unique candidates  : 897
+Final candidate file     : coconut_analysis/5_final_candidates/coconut_final_unique_candidates.csv
+
+6. METHODOLOGICAL NOTES
+--------------------------------------------------------------------------------
+• Morgan Top 50 selected by Morgan Active probability.
+• MACCS Top 50 selected by MACCS Active probability.
+• Both Top-50 lists were combined using UNION.
+• Duplicate molecules were removed using canonical SMILES.
+• Original COCONUT SDF information was retained.
+• No artificial combined ranking was applied.
+• No probability cutoff was applied.
+• Mean and minimum probabilities are descriptive only.
